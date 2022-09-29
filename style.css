@@ -1,0 +1,64 @@
+body{
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+.bubble img{
+    width: 70px;
+    border-radius: 100%;
+}
+
+
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    background-color:aliceblue;
+    width: 45%;
+    border-radius: 20px;
+}
+
+
+.text-bubble{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    letter-spacing: 1px;
+}
+.receive{
+    text-align: left;;
+    align-items:initial;
+}
+
+.send{
+    align-items:flex-end;
+    text-align: left;;
+}
+
+.content{
+    background-color: blueviolet;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 38%;
+}
+
+.receive .content{
+    background-color: #f1ffef;
+}
+.send .content{
+    background-color: #f1f5fb;
+}
+
+
+.sub-bubble{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 0, 0,0.5);
+    text-align: right;
+}
